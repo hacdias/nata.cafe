@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  text-rendering: optimizeLegibility;
+  font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+}
+
+:root {
+  --background: #18232f;
+  --text: #fdc775;
+  --accent: #8c6562;
+}
+
+body {
+  font-size: 1.25rem;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+small {
+  font-size: 0.8em;
+}
+
+img {
+  width: 100%;
+  max-width: 30rem;
+}
+
+a, a:hover, a:visited {
+  color: var(--accent);
+  background-color: transparent;
+  text-decoration-style: dotted;
+}
+
+.container {
+  max-width: 40rem;
+  width: 90%;
+  margin: 2em auto;
+}
