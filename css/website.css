@@ -9,23 +9,24 @@ html {
 
 :root {
   --background: #18232f;
-  --text: #fdc775;
+  --color: #fdc775;
   --accent: #8c6562;
 }
 
 body {
   font-size: 1.25rem;
   background-color: var(--background);
-  color: var(--text);
+  color: var(--color);
 }
 
 small {
   font-size: 0.8em;
 }
 
-img {
+.photo {
   width: 100%;
   max-width: 30rem;
+  border: 1px solid var(--color);
 }
 
 a, a:hover, a:visited {
